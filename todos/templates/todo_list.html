@@ -1,0 +1,9 @@
+<h1>Todo List</h1>
+
+<url>
+    {% for aluno in todo_list %}
+        <li>{{todo.title}}</li>
+    {% endfor %}
+</url>
+<a href="{ % url 'todo create'% }"> Nova Tarefa</a>
+
